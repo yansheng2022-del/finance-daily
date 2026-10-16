@@ -27,6 +27,22 @@
   .hot-bar.today .hb-pct { color:#ffffff; font-weight:700; }
   .hot-bar.week { background:linear-gradient(90deg,#0f172a,#1e3a5f,#0f172a); color:#93c5fd; }
   .hot-bar.week .hb-pct { color:#dbeafe; font-weight:700; }
+  .upcoming-zone { background:#0c1220; border:1px solid #f59e0b; border-radius:10px; margin:18px; padding:16px 18px; }
+  .upcoming-zone > h2 { color:#fbbf24; font-size:1.05rem; margin-bottom:4px; border-bottom:1px solid #1e3a5f; padding-bottom:8px; }
+  .up-window { font-size:0.74rem; color:#94a3b8; margin:6px 0 12px; }
+  .up-day { border-left:3px solid #f59e0b; padding:2px 0 2px 10px; margin-bottom:12px; }
+  .up-day-hd { font-size:0.86rem; font-weight:700; color:#fbbf24; margin-bottom:4px; }
+  .up-row { display:flex; gap:8px; padding:6px 0; border-top:1px dashed #1e3a5f; }
+  .up-row:first-of-type { border-top:none; }
+  .up-time { color:#94a3b8; font-size:0.76rem; min-width:104px; font-variant-numeric:tabular-nums; }
+  .up-tag { font-size:0.68rem; padding:1px 6px; border-radius:4px; background:rgba(245,158,11,0.15); color:#fbbf24; height:fit-content; white-space:nowrap; }
+  .up-main { flex:1; }
+  .up-title { color:#e2e8f0; font-weight:700; font-size:0.82rem; line-height:1.5; }
+  .up-note { color:#94a3b8; font-size:0.75rem; line-height:1.55; margin-top:3px; }
+  .up-region { color:#60a5fa; font-size:0.74rem; margin-right:6px; }
+  .up-next { margin-top:12px; padding-top:10px; border-top:1px solid #1e3a5f; }
+  .up-next-hd { color:#fbbf24; font-size:0.82rem; font-weight:700; margin-bottom:6px; }
+  .up-note-foot { font-size:0.72rem; color:#64748b; margin-top:10px; line-height:1.6; }
   .flash-zone { background:#0c1220; border:1px solid #3b82f6; border-radius:10px; margin:18px; padding:16px 18px; }
   .flash-zone h2 { color:#60a5fa; font-size:1.05rem; margin-bottom:12px; border-bottom:1px solid #1e3a5f; padding-bottom:8px; }
   .flash-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
@@ -126,6 +142,350 @@
     <span class="tk"><span class="tk-name">布油</span><span class="tk-val down">105.68 -0.36%（10月15日）</span></span>
     <span class="tk"><span class="tk-name">COMEX金</span><span class="tk-val up">4,184.85 +0.35%（10月17日·qt.gtimg实时）</span></span>
     <span class="tk"><span class="tk-name">比特币</span><span class="tk-val up">8.25万 +0.9%（10月15日收）</span></span>
+</div>
+
+<div class="upcoming-zone">
+  <h2>📅 下周重磅日程（置顶）</h2>
+  <div class="up-window">窗口：2026-10-19（周一） ~ 2026-10-25（周日） · 时间均为北京时间</div>
+  <div class="up-day">
+    <div class="up-day-hd">10/19 周一</div>
+    <div class="up-row">
+      <span class="up-time">10:00</span>
+      <span class="up-tag">数据+发布</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇨🇳 中国</span>国新办发布会：2026年前三季度国民经济运行情况</div>
+        <div class="up-note">Q3 GDP + 9月工业增加值／社零／固投／失业率／70城房价集中落地；统计局副局长毛盛勇答记者问。一季度5.0%、二季度4.3%，机构普遍预计三季度约4.5%</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">全天（19–22日）</span>
+      <span class="up-tag">论坛</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇨🇳 中国</span>2026金融街论坛年会（北京金融街）</div>
+        <div class="up-note">主题「开放·合作·包容——共筑全球金融发展新生态」。央行潘功胜、金融监管总局丁向群、证监会吴清、外汇局朱鹤新作主题演讲；百余项成果首发，国家金融管理部门集中发布系列金融改革发展政策</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">20:30</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇨🇦 加拿大</span>9月CPI</div>
+        <div class="up-note">弱就业之后的通胀验证；市场定价10/28 加息概率约30%，12/9 完全定价加息</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">22:00</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇺🇸 美国</span>10月NAHB住房市场指数</div>
+        <div class="up-note">30年期房贷利率已升破7.5%，地产是最敏感的高利率传导通道</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">待定</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇯🇵 日本</span>8月第三产业活动指数</div>
+        <div class="up-note">日央行10/29–30 决议前的服务业体温计</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">全天</span>
+      <span class="up-tag">讲话</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🌍 央行讲话</span>欧央行 Sleijpen、Lane、Elderson 讲话；澳联储 Kent 讲话</div>
+        <div class="up-note">为10/29 ECB 决议（市场定价87%维持2.50%）铺路</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">全天</span>
+      <span class="up-tag">休市</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇨🇳 中国香港</span>假日休市</div>
+        <div class="up-note">港股10/19 休市，北向资金通道关闭</div>
+      </div>
+    </div>
+  </div>
+  <div class="up-day">
+    <div class="up-day-hd">10/20 周二</div>
+    <div class="up-row">
+      <span class="up-time">09:15</span>
+      <span class="up-tag">政策/利率</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇨🇳 中国</span>10月LPR报价（央行利率决议）</div>
+        <div class="up-note">市场预期维持不变；关注5年期是否单独下调以托底地产</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">14:00</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇬🇧 英国</span>劳动力市场报告（失业率／薪资）</div>
+        <div class="up-note">前值失业率4.9%、常规薪资同比+3.5%、空缺降至70.2万；决定11/5 加息的紧迫度</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">20:30</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇺🇸 美国</span>9月新屋开工与营建许可</div>
+        <div class="up-note">7月开工曾创2024年4月以来最低，房贷利率破7.5%后是否再收缩</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">22:00</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇺🇸 美国</span>9月成屋签约销售（Pending Home Sales）</div>
+        <div class="up-note">地产链第二重验证</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">17:00</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇪🇺 欧元区</span>德国／欧元区10月ZEW经济景气指数；德国9月PPI</div>
+        <div class="up-note">PPI是本周欧元区唯一价格端前瞻；德国工业仍为拖累项</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">盘后</span>
+      <span class="up-tag">财报</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇺🇸 美股</span>Netflix 三季度财报</div>
+        <div class="up-note">科技股杀估值之后的第一份大型消费/流媒体成绩单</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">全天</span>
+      <span class="up-tag">讲话</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🌍 央行讲话</span>英央行 Mills、Greene 讲话；澳联储 Connolly 讲话</div>
+        <div class="up-note">MPC内部分歧（9月6-3投票，三人主张升至4.00%）是否收敛</div>
+      </div>
+    </div>
+  </div>
+  <div class="up-day">
+    <div class="up-day-hd">10/21 周三</div>
+    <div class="up-row">
+      <span class="up-time">14:00</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇬🇧 英国</span>9月CPI／PPI + 公共部门净借款</div>
+        <div class="up-note">前值CPI 3.1%（8月），央行预测年末约3.75%、2027年初略破4%。这是11/5 加息（市场定价93%）的锚；借款数据则为10/28秋季预算预热</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">22:30</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇺🇸 美国</span>EIA原油库存周报</div>
+        <div class="up-note">IEA放储1亿桶+2000万桶柴油后的库存兑现，直接关系油价→通胀链</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">待定</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇯🇵 日本</span>9月贸易帐</div>
+        <div class="up-note">8月出口同比+36.3%高位，关注能源进口账单对贸易平衡的侵蚀</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">盘后</span>
+      <span class="up-tag">财报</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇺🇸 美股</span>特斯拉、Meta 三季度财报</div>
+        <div class="up-note">本周科技权重最大的两份财报；AI资本开支指引是核心看点</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">全天</span>
+      <span class="up-tag">讲话</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🌍 央行讲话</span>英央行行长 Bailey 讲话；欧央行 Lane、Nagel、拉加德 讲话</div>
+        <div class="up-note">拉加德在CPI+PMI周中发声，对欧元定价影响最大</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">待定</span>
+      <span class="up-tag">央行</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇮🇩 印尼</span>印尼央行利率决议</div>
+        <div class="up-note">市场预期加息75bp；新兴市场在强美元+高油价下的防御性动作</div>
+      </div>
+    </div>
+  </div>
+  <div class="up-day">
+    <div class="up-day-hd">10/22 周四</div>
+    <div class="up-row">
+      <span class="up-time">20:30</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇺🇸 美国</span>初请失业金 + CB领先指数</div>
+        <div class="up-note">四周均值约20万，为六个月低位。9月非农仅+2.9万、失业率升至4.2%后，>23万=劳动力市场恶化延续（压低10月加息概率），<21万=9月属单月异常</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">23:00</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇪🇺 欧元区</span>10月消费者信心初值</div>
+        <div class="up-note">能源价格高企对居民端的侵蚀程度</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">待定</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇬🇧 英国</span>CBI工业订单／商业乐观指数</div>
+        <div class="up-note">英国央行11月决策前的企业端补充证据</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">待定</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇳🇿 新西兰</span>三季度CPI</div>
+        <div class="up-note">直接影响10/28 新西兰联储决议</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">待定</span>
+      <span class="up-tag">央行</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🌏 央行</span>韩国央行决议（预期不变）；土耳其央行决议（预期大幅降息）</div>
+        <div class="up-note">韩元与KOSPI刚经历-7.56%级别杀跌，韩央行按兵不动概率高；土耳其9月通胀已由31.5%回落至29.7%</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">全天</span>
+      <span class="up-tag">讲话</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🌍 央行讲话</span>欧央行 Panetta 讲话；英央行行长 Bailey 再度讲话</div>
+        <div class="up-note">一周内 Bailey 两次公开露面，英镑波动放大</div>
+      </div>
+    </div>
+  </div>
+  <div class="up-day">
+    <div class="up-day-hd">10/23 周五</div>
+    <div class="up-row">
+      <span class="up-time">15:15 / 15:30 / 16:00</span>
+      <span class="up-tag">数据★</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇫🇷🇩🇪🇪🇺 欧洲</span>法国／德国／欧元区10月制造业与服务业PMI初值</div>
+        <div class="up-note">本周全球核心。LBBW预期欧元区PMI小幅回落；关注德国是否继续拖累、投入价格分项是否随能源上行</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">21:45</span>
+      <span class="up-tag">数据★</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇺🇸 美国</span>10月S&P Global制造业／服务业PMI初值</div>
+        <div class="up-note">制造业已连续9个月扩张（前值53.9）。9月ISM物价支付飙至77.9，若服务业价格同步加速，通胀将由能源向全面扩散，10/28 FOMC 鹰派依据更硬</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">22:00</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇺🇸 美国</span>密歇根大学10月消费者信心终值</div>
+        <div class="up-note">初值68.9（9月终值65.1），终值通常偏离不大</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">07:30</span>
+      <span class="up-tag">数据★</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇯🇵 日本</span>9月全国CPI + 日本10月PMI初值</div>
+        <div class="up-note">日央行10/29–30 决议（政策利率1.25%，三十年高位）前最后一份通胀</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">14:00</span>
+      <span class="up-tag">数据</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🇬🇧 英国</span>9月零售销售 + 10月GfK消费者信心 + 英国PMI初值</div>
+        <div class="up-note">英国数据最密集的一天，英镑日内波动最大窗口</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">全天</span>
+      <span class="up-tag">讲话</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🌍 央行讲话</span>欧央行 Montagner、Cipollone 讲话</div>
+        <div class="up-note">PMI落地后的欧央行口径校准</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">⚠️ 提示</span>
+      <span class="up-tag">时间</span>
+      <div class="up-main">
+        <div class="up-title"><span class="up-region">🌍 全球</span>10/25（周日）夜间欧洲夏令时结束</div>
+        <div class="up-note">自10/26起欧美交易时段相对北京时间整体后移一小时，注意开盘时间错位</div>
+      </div>
+    </div>
+  </div>
+  <div class="up-next">
+    <div class="up-next-hd">⏭️ 次周前瞻（提前锁定，不属本周窗口）</div>
+    <div class="up-row">
+      <span class="up-time">10/26–29</span>
+      <span class="up-tag">🇨🇳 中国</span>
+      <div class="up-main">
+        <div class="up-title">二十届五中全会</div>
+        <div class="up-note">下一个五年规划建议的定调会议，政策与产业政策的最高层级信号源</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">10/28</span>
+      <span class="up-tag">🇬🇧 英国</span>
+      <div class="up-main">
+        <div class="up-title">秋季预算案 + OBR 经济与财政预测</div>
+        <div class="up-note">财政大臣 John Healey 上任后首份预算；财政缓冲据估已因收益率与利率变动腰斩至约140亿英镑，是本季英镑最大单一日程</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">10/28–29</span>
+      <span class="up-tag">🇺🇸 美国</span>
+      <div class="up-main">
+        <div class="up-title">美联储FOMC议息会议</div>
+        <div class="up-note">当前利率3.75%–4.00%（9/16加息25bp，2023年以来首次）。LSEG定价10月再加息概率仅约15%，12月完全定价，未来12个月共3次25bp</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">10/29</span>
+      <span class="up-tag">🇺🇸/🇪🇺</span>
+      <div class="up-main">
+        <div class="up-title">美国Q3 GDP初值 + 核心PCE；欧央行决议（20:15）与拉加德记者会（20:45）</div>
+        <div class="up-note">ECB 存款利率2.50%，市场定价87%维持不变；非预测会议，看声明措辞与记者会口风</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">10/29–30</span>
+      <span class="up-tag">🇯🇵 日本</span>
+      <div class="up-main">
+        <div class="up-title">日本央行议息会议</div>
+        <div class="up-note">政策利率1.25%，为三十年来最高；日元在158附近，加息与干预预期并行</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">10/31前</span>
+      <span class="up-tag">🇨🇳 中国</span>
+      <div class="up-main">
+        <div class="up-title">A股三季报全部披露完毕</div>
+        <div class="up-note">AI产业链、资源品、中高端制造、医药的业绩兑现检验</div>
+      </div>
+    </div>
+    <div class="up-row">
+      <span class="up-time">11/05</span>
+      <span class="up-tag">🇬🇧 英国</span>
+      <div class="up-main">
+        <div class="up-title">英国央行决议</div>
+        <div class="up-note">市场定价93%加息25bp至4.00%；9月MPC以6-3投票维持3.75%</div>
+      </div>
+    </div>
+  </div>
+  <div class="up-note-foot">本栏为「下周重磅日程」置顶信息搜索栏目：覆盖世界主要经济体的重要经济数据、论坛、会议、央行讲话、利率决议与重量级财报，时间统一为北京时间。数据来自 FXStreet／Morningstar(Dow Jones)／ATFX／ForexHatch 周前瞻与财联社等权威日历，仅如实列示时间与市场预期，不构成投资建议；个别会议日程存在临时调整可能，以官方公告为准。<br>信源：FXStreet 周前瞻(10/16) · Morningstar/Dow Jones(10/16) · ATFX 每日日历(10/16) · ForexHatch(10/16) · Yelza 经济日历 · 财联社/中国基金报(国新办) · 隆众·中国金融网(金融街论坛)</div>
 </div>
 
 <div class="hot-bar today">
@@ -488,7 +848,7 @@
 </div>
 
 <div class="update-info">
-  ⏰ 最后更新：2026-10-17 00:21 ｜ 简报源：global_finance_briefing_20261017_0014.html ｜ 解读源：全球财经深度解读_20261017_0014.md<br>
+  ⏰ 最后更新：2026-10-17 00:28 ｜ 简报源：global_finance_briefing_20261017_0014.html ｜ 解读源：全球财经深度解读_20261017_0014.md<br>
   🔗 固定网址：https://yansheng2022-del.github.io/finance-daily/ ｜ 每天6次自动更新（03:30/07:30/11:30/15:30/19:30/23:30）
 </div>
 
